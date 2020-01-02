@@ -20,9 +20,9 @@
                         <div class="text">
                             <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
                             <div class="meta">
-                                <div><a href="#"></span> Oct. 16, 2019</a></div>
-                                <div><a href="#"></span> Admin</a></div>
-                                <div><a href="#"></span> 19</a></div>
+                                <div><a href="#"> Oct. 16, 2019</a></div>
+                                <div><a href="#"> Admin</a></div>
+                                <div><a href="#"> 19</a></div>
                             </div>
                         </div>
                     </div>
@@ -31,9 +31,9 @@
                         <div class="text">
                             <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
                             <div class="meta">
-                                <div><a href="#"></span> Oct. 16, 2019</a></div>
-                                <div><a href="#"></span> Admin</a></div>
-                                <div><a href="#"></span> 19</a></div>
+                                <div><a href="#"> Oct. 16, 2019</a></div>
+                                <div><a href="#"> Admin</a></div>
+                                <div><a href="#"> 19</a></div>
                             </div>
                         </div>
                     </div>
