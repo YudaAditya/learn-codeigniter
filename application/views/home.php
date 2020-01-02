@@ -62,8 +62,9 @@
                                 </div>
                             </div>
                         </div>
+                        <?php endforeach; ?>
                 </div>
-            <?php endforeach; ?>
+            </div>
 
             <div class="row mt-5">
                 <div class="col text-center">

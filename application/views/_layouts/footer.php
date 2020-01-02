@@ -3,7 +3,7 @@
         <div class="row mb-5">
             <div class="col-md">
                 <div class="ftco-footer-widget mb-4">
-                    <h2 class="logo"><a href="#">Home<span>page</span>.</a></h2>
+                    <h2 class="logo"><a href="<?php echo base_url()?>">Home<span>page</span>.</a></h2>
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                         <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
@@ -43,8 +43,8 @@
                 <div class="ftco-footer-widget mb-4 ml-md-5">
                     <h2 class="ftco-heading-2">Information</h2>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Home</a></li>
-                        <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>About</a></li>
+                        <li><a href="<?php echo base_url()?>" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Home</a></li>
+                        <li><a href="<?php echo site_url('about') ?>" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>About</a></li>
                         <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Articles</a></li>
                         <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Contact</a></li>
                     </ul>
