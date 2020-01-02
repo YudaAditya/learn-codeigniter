@@ -1,8 +1,9 @@
-<title><?php echo SITE_NAME . ": " . ucfirst($this->uri->segment(1)) . " - " . ucfirst($this->uri->segment(2)) ?></title>
+<title><?php echo SITE_NAME . "" . ucfirst($this->uri->segment(2)) . " - " . ucfirst($this->uri->segment(1)) ?></title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+<link rel="stylesheet" href="<?php echo base_url('theme/fontawesome/css/all.css') ?>">
 
 <link rel="stylesheet" href="<?php echo base_url('theme/readit/css/open-iconic-bootstrap.min.css') ?>">
 <link rel="stylesheet" href="<?php echo base_url('theme/readit/css/animate.css ') ?>">

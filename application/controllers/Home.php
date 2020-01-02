@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Artikel_controller extends CI_Controller
+class Home extends CI_Controller
 {
 
     /**
@@ -20,29 +20,16 @@ class Artikel_controller extends CI_Controller
      * @see https://codeigniter.com/user_guide/general/urls.html
      */
 
-    public function __construct() 
+    public function __construct()
     {
         parent::__construct();
         $this->load->model("artikel_model");
         $this->load->library('form_validation');
     }
+
     public function index()
     {
-        $data["artikel"]=$this->artikel_model->getAll();
-        $this->load->view("_contents/_home", $data);
-    }
-
-    public function add()
-    {
-        $artikel = $this->artikel_model;
-        $validation = $this->form_validation;
-        $validation->set_rules($artikel->rules());
-
-        if ($validation->run()) {
-            $artikel->save();
-            $this->session->set_flashdata('success','Berhasil disimpan');
-        }
-
-        $this->load->view();
+        $data["artikels"] = $this->artikel_model->getAll();
+        $this->load->view("home", $data);
     }
 }

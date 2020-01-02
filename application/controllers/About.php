@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Home_controller extends CI_Controller
+class About extends CI_Controller
 {
 
     /**
@@ -21,6 +21,6 @@ class Home_controller extends CI_Controller
      */
     public function index()
     {
-        $this->load->view('home');
+        $this->load->view('about');
     }
 }

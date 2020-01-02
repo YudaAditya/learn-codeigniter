@@ -2,7 +2,7 @@
 
 class Artikel_model extends CI_Model
 {
-    private $_table = "artikel":
+    private $_table = "artikel";
     
     public $id_artikel;
     public $title;
