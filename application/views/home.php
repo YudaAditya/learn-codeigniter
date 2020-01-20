@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <?php $this->load->view("_layouts/header.php"); ?>
-</head>
+<?php $this->load->view("_layouts/_header.php"); ?>
 
 <body>
-    <?php $this->load->view("_layouts/navbar.php"); ?>
+    <?php $this->load->view("_layouts/_navbar.php"); ?>
 
     <div class="hero-wrap js-fullheight" style="background-image: url('<?php echo base_url('theme/readit/images/bg_2.jpg') ?>');" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
@@ -49,13 +45,13 @@
                                 <div class="col-md-6 col-lg-6 col-xl-4 d-flex">
                                     <span class="text w-100 pl-md-3">
                                         <!-- <span class="subheading"></span> -->
-                                        <h2><a href="blog-single.html"><?php echo $artikel->title ?></a></h2>
+                                        <h2><a href="blog-single.html"><?php echo $artikel->judul ?></a></h2>
                                         <ul class="media-social list-unstyled">
                                             <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                                             <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
                                             <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
                                         </ul>
-                                        <p><?php echo $artikel->content ?></p>
+                                        <p><?php echo $artikel->artikel ?></p>
                                         <div class="meta">
                                             <p class="mb-0"><a href="#"><?php echo $artikel->tanggal ?></a> | <a href="#">12 min read</a></p>
                                         </div>
@@ -85,10 +81,10 @@
     </section>
 
 
-    <?php $this->load->view("_layouts/footer.php"); ?>
+    <?php $this->load->view("_layouts/_footer.php"); ?>
 
 </body>
 
-<?php $this->load->view("_layouts/js.php"); ?>
+<?php $this->load->view("_layouts/_js.php"); ?>
 
 </html>

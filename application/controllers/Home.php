@@ -29,7 +29,8 @@ class Home extends CI_Controller
 
     public function index()
     {
-        $data["artikels"] = $this->artikel_model->getAll();
+        $data['title'] = "HomePage.";
+        $data["artikels"] = $this->artikel_model->getAll('artikel')->result();
         $this->load->view("home", $data);
     }
 }

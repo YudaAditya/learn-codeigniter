@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    <?php $this->load->view("_layouts/header.php"); ?>
+    <?php $this->load->view("_layouts/_header.php"); ?>
 </head>
 
 <body>
-    <?php $this->load->view("_layouts/navbar.php"); ?>
+    <?php $this->load->view("_layouts/_navbar.php"); ?>
 
     <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('<?php echo base_url('theme/readit/images/bg_2.jpg') ?>');" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
@@ -154,10 +154,10 @@
         </div>
     </section> -->
 
-    <?php $this->load->view("_layouts/footer.php"); ?>
+    <?php $this->load->view("_layouts/_footer.php"); ?>
 
 </body>
 
-<?php $this->load->view("_layouts/js.php"); ?>
+<?php $this->load->view("_layouts/_js.php"); ?>
 
 </html>
